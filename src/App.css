@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.video-listing {
+  margin: 20px auto;
+}
+
+.video-listing .media-heading {
+  font-size: 20px;
+  text-align: left;
+}
+
+.video-listing p {
+  text-align: left;
+}
