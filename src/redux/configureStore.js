@@ -1,5 +1,5 @@
 import { applyMiddleware, createStore } from 'redux'
-import { Reducer, initialState } from './reducer'
+import { Reducer } from './reducer'
 import { logger } from 'redux-logger'
 
 export const ConfigureStore = () => {

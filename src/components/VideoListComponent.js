@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Media, Button } from 'reactstrap';
 
 function RenderKidVideo({video}) {

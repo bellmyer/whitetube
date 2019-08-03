@@ -17,10 +17,6 @@ const mapDispatchToProps = dispatch => ({
 
 
 class Main extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   updateApproval = (videoId, approved) => {
     this.props.updateVideoApproval(videoId, approved)
   };
