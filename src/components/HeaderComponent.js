@@ -1,22 +1,46 @@
 import React, { Component } from 'react';
-import { Collapse, Nav, Navbar, NavbarBrand, NavItem, Button, Form, FormGroup, Input, Label } from 'reactstrap';
+import { Collapse, Nav, Navbar, NavbarBrand, NavItem, Button, Form, FormGroup, Input } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      loggedIn: props.loggedIn,
-    }
-  }
-
   handleLogin = (event) => {
     event.preventDefault()
     this.props.login('test', this.password.value)
   }
 
+  handleLogout = (event) => {
+    event.preventDefault()
+    this.props.logout()
+  }
+
+  loginForm = () => {
+    return (
+      <Form inline onSubmit={this.handleLogin} className="float-right">
+        <FormGroup>
+          <Input type="password" id="password" name="password" innerRef={(input) => this.password = input} />
+          <span> </span>
+          <Button type="submit" color="secondary" onClick={this.login}>
+            <span className="fa fa-sign-in fa-lg"></span> Login
+          </Button>
+        </FormGroup>
+      </Form>
+    )
+  }
+
+  logoutForm = () => {
+    return (
+      <Form inline onSubmit={this.handleLogout} className="float-right">
+        <FormGroup>
+          <Button type="submit" color="secondary" onClick={this.login}>
+            <span className="fa fa-sign-in fa-lg"></span> Logout
+          </Button>
+        </FormGroup>
+      </Form>
+    )
+  }
+
   render() {
+    console.log('render called with' + this.props.loggedIn)
 
     return (
         <Navbar dark color="primary" expand="md">
@@ -42,17 +66,7 @@ class Header extends Component {
               </Nav>
             </Collapse>
 
-            { !this.props.loggedIn &&
-              <Form inline onSubmit={this.handleLogin} className="float-right">
-                <FormGroup>
-                  <Input type="password" id="password" name="password" innerRef={(input) => this.password = input} />
-                  <span> </span>
-                  <Button type="submit" color="secondary" onClick={this.login}>
-                    <span className="fa fa-sign-in fa-lg"></span> Login
-                  </Button>
-                </FormGroup>
-              </Form>
-            }
+            { !this.props.loggedIn ? this.loginForm() : this.logoutForm() }
           </div>
         </Navbar>
     );

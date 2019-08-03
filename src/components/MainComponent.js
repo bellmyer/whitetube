@@ -8,6 +8,7 @@ import { updateVideoApproval, login, logout } from '../redux/ActionCreators'
 const mapStateToProps = state => {
   return {
     videos: state.videos,
+    loggedIn: state.loggedIn
   }
 }
 
