@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Media } from 'reactstrap';
-import { VIDEOS } from '../shared/videos';
 
 function RenderVideo({video}) {
   return (
@@ -18,7 +17,7 @@ function RenderVideo({video}) {
 }
 
 function VideoList(props) {
-  const videos = VIDEOS.map((video) => {
+  const videos = props.videos.map((video) => {
     return (
       <RenderVideo key={video.id} video={video} />
     )

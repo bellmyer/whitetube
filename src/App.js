@@ -2,19 +2,21 @@ import React from 'react';
 import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Main from './components/MainComponent';
-// import { Provider } from 'react-redux';
+import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-// import { ConfigureStore } from './redux/configureStore';
+import { ConfigureStore } from './redux/configureStore';
+
+const store = ConfigureStore();
 
 function App() {
   return (
-    // <Provider store={store}>
-    <BrowserRouter>
-      <div>
-        <Main />
-      </div>
-    </BrowserRouter>
-    // </Provider>
+    <Provider store={store}>
+      <BrowserRouter>
+        <div>
+          <Main />
+        </div>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
