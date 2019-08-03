@@ -5,8 +5,8 @@ import { VIDEOS } from '../shared/videos';
 function RenderVideo({video}) {
   return (
     <Media tag="li" className="video-listing">
-      <Media left middle href={video.url}>
-        <Media object src={`assets/images/${video.thumbnail}`} alt={video.name} />
+      <Media left middle>
+        <Media object src={`assets/images/${video.thumbnail}`}  href={video.url} alt={video.name} />
       </Media>
 
       <Media body className="ml-5">

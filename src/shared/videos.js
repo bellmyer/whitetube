@@ -22,9 +22,9 @@ export const VIDEOS = [
   },
   {
     id: 3,
-    name: "Rabbids Invasion - 1 MINUTE, 1 SPORT (Compilation)",
-    description: "1 MINUTE, 1 SPORT - THE Compilation ! How to score an ippon? What are the 5 rules of racing? From diving to equestrian sports...",
-    url: "https://www.youtube.com/watch?v=uWcOZjWCLiY",
-    thumbnail: 'gross-bunny.png',
+    name: "Mario + Rabbids Kingdom Battle - All Cutscenes Full Movie HD",
+    description: "This movie contains all cutscenes of Mario + Rabbids Kingdom Battle for Nintendo Switch in 1080p & 60fps. I hope you'll enjoy it...",
+    url: "https://www.youtube.com/watch?v=TGL-LHKSWTA",
+    thumbnail: 'gross-bunnies.png',
   },
 ]
