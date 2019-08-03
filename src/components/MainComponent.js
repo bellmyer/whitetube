@@ -3,6 +3,7 @@ import Header from './HeaderComponent'
 import VideoList from './VideoListComponent'
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
+import { updateVideoApproval } from '../redux/ActionCreators'
 
 const mapStateToProps = state => {
   return {
@@ -10,7 +11,20 @@ const mapStateToProps = state => {
   }
 }
 
+const mapDispatchToProps = dispatch => ({
+  updateVideoApproval: (videoId, approved) => dispatch(updateVideoApproval(videoId, approved))
+})
+
+
 class Main extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  updateApproval = (videoId, approved) => {
+    this.props.updateVideoApproval(videoId, approved)
+  };
+
   render() {
     const kidVideos = () => {
       const filteredVideos = this.props.videos.filter((video) => {
@@ -18,13 +32,13 @@ class Main extends Component {
       })
 
       return (
-        <VideoList videos={filteredVideos} />
+        <VideoList videos={filteredVideos} view="kids" updateApproval={this.updateApproval} />
       )
     }
 
     const parentVideos = () => {
       return (
-        <VideoList videos={this.props.videos} />
+        <VideoList videos={this.props.videos} view="parents" updateApproval={this.updateApproval} />
       )
     }
 
@@ -44,4 +58,4 @@ class Main extends Component {
   }
 }
 
-export default withRouter(connect(mapStateToProps)(Main));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Main));
