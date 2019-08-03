@@ -40,8 +40,6 @@ class Header extends Component {
   }
 
   render() {
-    console.log('render called with' + this.props.loggedIn)
-
     return (
         <Navbar dark color="primary" expand="md">
           <div className="container">

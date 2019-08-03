@@ -23,6 +23,11 @@ class Main extends Component {
     this.props.updateVideoApproval(videoId, approved)
   };
 
+  logoutAndRedirect = () => {
+    this.props.logout()
+    this.props.history.push('/')
+  }
+
   render() {
     const kidVideos = () => {
       const filteredVideos = this.props.videos.filter((video) => {
@@ -42,7 +47,7 @@ class Main extends Component {
 
     return (
       <div>
-        <Header loggedIn={this.props.loggedIn} login={this.props.login} logout={this.props.logout} />
+        <Header loggedIn={this.props.loggedIn} login={this.props.login} logout={this.logoutAndRedirect} />
 
         <div className="container">
           <Switch>
