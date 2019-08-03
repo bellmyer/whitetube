@@ -3,7 +3,7 @@ import Header from './HeaderComponent'
 import VideoList from './VideoListComponent'
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { updateVideoApproval } from '../redux/ActionCreators'
+import { updateVideoApproval, login, logout } from '../redux/ActionCreators'
 
 const mapStateToProps = state => {
   return {
@@ -12,9 +12,10 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => ({
-  updateVideoApproval: (videoId, approved) => dispatch(updateVideoApproval(videoId, approved))
+  updateVideoApproval: (videoId, approved) => dispatch(updateVideoApproval(videoId, approved)),
+  login: (username, password) => dispatch(login(username, password)),
+  logout: () => dispatch(logout()),
 })
-
 
 class Main extends Component {
   updateApproval = (videoId, approved) => {
@@ -40,7 +41,7 @@ class Main extends Component {
 
     return (
       <div>
-        <Header />
+        <Header loggedIn={this.props.loggedIn} login={this.props.login} logout={this.props.logout} />
 
         <div className="container">
           <Switch>

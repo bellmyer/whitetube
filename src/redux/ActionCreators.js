@@ -7,3 +7,16 @@ export const updateVideoApproval = (videoId, approved) => ({
     approved: approved
   }
 })
+
+export const login = (username, password) => ({
+  type: ActionTypes.LOGIN,
+  payload: {
+    username: username,
+    password: password
+  }
+})
+
+export const logout = () => ({
+  type: ActionTypes.LOGOUT,
+  payload: {}
+})
