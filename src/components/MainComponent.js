@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import VideoList from './VideoListComponent';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 function Main(props) {
   return (
@@ -8,10 +9,13 @@ function Main(props) {
       <Header />
 
       <div className="container">
-        <VideoList />
+        <Switch>
+          <Route path='/home' component={() => <VideoList />} />
+          <Redirect to='/home' />
+        </Switch>
       </div>
     </div>
   )
 }
 
-export default Main;
+export default withRouter(Main);

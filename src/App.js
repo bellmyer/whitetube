@@ -1,14 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Main from './components/MainComponent';
+// import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+// import { ConfigureStore } from './redux/configureStore';
 
 function App() {
   return (
-    <div className="App">
-      <Main />
-    </div>
+    // <Provider store={store}>
+    <BrowserRouter>
+      <div>
+        <Main />
+      </div>
+    </BrowserRouter>
+    // </Provider>
   );
 }
 
