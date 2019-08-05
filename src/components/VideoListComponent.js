@@ -1,6 +1,6 @@
 import React from 'react';
 import { Media, Button } from 'reactstrap';
-import { FadeTransform, Fade, Stagger } from 'react-animation-components'
+import { Fade, Stagger } from 'react-animation-components'
 
 function RenderKidVideo({video}) {
   return (
