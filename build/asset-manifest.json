@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.434ab2c6.chunk.css",
-    "main.js": "./static/js/main.1e818186.chunk.js",
-    "main.js.map": "./static/js/main.1e818186.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-    "static/css/2.ed7f8b65.chunk.css": "./static/css/2.ed7f8b65.chunk.css",
-    "static/js/2.4041d8a0.chunk.js": "./static/js/2.4041d8a0.chunk.js",
-    "static/js/2.4041d8a0.chunk.js.map": "./static/js/2.4041d8a0.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.b67f628eb1e75783a0295754b1318f59.js": "./precache-manifest.b67f628eb1e75783a0295754b1318f59.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.ed7f8b65.chunk.css.map": "./static/css/2.ed7f8b65.chunk.css.map",
-    "static/css/main.434ab2c6.chunk.css.map": "./static/css/main.434ab2c6.chunk.css.map",
-    "static/media/font-awesome.css": "./static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/whitetube/build/static/css/main.434ab2c6.chunk.css",
+    "main.js": "/whitetube/build/static/js/main.6871f638.chunk.js",
+    "main.js.map": "/whitetube/build/static/js/main.6871f638.chunk.js.map",
+    "runtime~main.js": "/whitetube/build/static/js/runtime~main.ad24d2c2.js",
+    "runtime~main.js.map": "/whitetube/build/static/js/runtime~main.ad24d2c2.js.map",
+    "static/css/2.67c15d8e.chunk.css": "/whitetube/build/static/css/2.67c15d8e.chunk.css",
+    "static/js/2.4041d8a0.chunk.js": "/whitetube/build/static/js/2.4041d8a0.chunk.js",
+    "static/js/2.4041d8a0.chunk.js.map": "/whitetube/build/static/js/2.4041d8a0.chunk.js.map",
+    "index.html": "/whitetube/build/index.html",
+    "precache-manifest.7114d1c029ac53ffb6b0956c98ab3054.js": "/whitetube/build/precache-manifest.7114d1c029ac53ffb6b0956c98ab3054.js",
+    "service-worker.js": "/whitetube/build/service-worker.js",
+    "static/css/2.67c15d8e.chunk.css.map": "/whitetube/build/static/css/2.67c15d8e.chunk.css.map",
+    "static/css/main.434ab2c6.chunk.css.map": "/whitetube/build/static/css/main.434ab2c6.chunk.css.map",
+    "static/media/font-awesome.css": "/whitetube/build/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
