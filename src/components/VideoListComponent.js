@@ -4,8 +4,8 @@ import { Media, Button } from 'reactstrap';
 function RenderKidVideo({video}) {
   return (
     <Media tag="li" className="video-listing">
-      <Media left middle>
-        <Media object src={`assets/images/${video.thumbnail}`}  href={video.url} alt={video.name} />
+      <Media href={video.url} target="_blank" left middle>
+        <Media object src={`assets/images/${video.thumbnail}`} alt={video.name} />
       </Media>
 
       <Media body className="ml-5">
