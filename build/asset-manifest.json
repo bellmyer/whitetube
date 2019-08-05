@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.434ab2c6.chunk.css",
-    "main.js": "/static/js/main.e364692e.chunk.js",
-    "main.js.map": "/static/js/main.e364692e.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.7e4d58aa.chunk.css": "/static/css/2.7e4d58aa.chunk.css",
-    "static/js/2.4041d8a0.chunk.js": "/static/js/2.4041d8a0.chunk.js",
-    "static/js/2.4041d8a0.chunk.js.map": "/static/js/2.4041d8a0.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.dbbba95625bdfd51b4a08984cb91dbce.js": "/precache-manifest.dbbba95625bdfd51b4a08984cb91dbce.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7e4d58aa.chunk.css.map": "/static/css/2.7e4d58aa.chunk.css.map",
-    "static/css/main.434ab2c6.chunk.css.map": "/static/css/main.434ab2c6.chunk.css.map",
-    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "./build/static/css/main.434ab2c6.chunk.css",
+    "main.js": "./build/static/js/main.29f3f1ca.chunk.js",
+    "main.js.map": "./build/static/js/main.29f3f1ca.chunk.js.map",
+    "runtime~main.js": "./build/static/js/runtime~main.c9f15127.js",
+    "runtime~main.js.map": "./build/static/js/runtime~main.c9f15127.js.map",
+    "static/css/2.9091bcff.chunk.css": "./build/static/css/2.9091bcff.chunk.css",
+    "static/js/2.4041d8a0.chunk.js": "./build/static/js/2.4041d8a0.chunk.js",
+    "static/js/2.4041d8a0.chunk.js.map": "./build/static/js/2.4041d8a0.chunk.js.map",
+    "index.html": "./build/index.html",
+    "precache-manifest.1c5e827e69879e1ed724a622c7bfd5e3.js": "./build/precache-manifest.1c5e827e69879e1ed724a622c7bfd5e3.js",
+    "service-worker.js": "./build/service-worker.js",
+    "static/css/2.9091bcff.chunk.css.map": "./build/static/css/2.9091bcff.chunk.css.map",
+    "static/css/main.434ab2c6.chunk.css.map": "./build/static/css/main.434ab2c6.chunk.css.map",
+    "static/media/font-awesome.css": "./build/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
