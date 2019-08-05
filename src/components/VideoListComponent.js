@@ -1,5 +1,6 @@
 import React from 'react';
 import { Media, Button } from 'reactstrap';
+import { FadeTransform, Fade, Stagger } from 'react-animation-components'
 
 function RenderKidVideo({video}) {
   return (
@@ -62,12 +63,16 @@ function VideoList(props) {
   const videos = props.videos.map((video) => {
     if (props.view === 'kids') {
       return (
-        <RenderKidVideo key={video.id} video={video} />
+        <Fade in>
+          <RenderKidVideo key={video.id} video={video} />
+        </Fade>
       )
     }
 
     return (
-      <RenderParentVideo key={video.id} video={video} updateApproval={props.updateApproval} />
+      <Fade in>
+        <RenderParentVideo key={video.id} video={video} updateApproval={props.updateApproval} />
+      </Fade>
     )
   });
 
@@ -75,7 +80,9 @@ function VideoList(props) {
     <div className="row row-content">
       <div className="col-12">
         <Media list>
-          {videos}
+          <Stagger in delay={250}>
+            {videos}
+          </Stagger>
         </Media>
       </div>
     </div>
