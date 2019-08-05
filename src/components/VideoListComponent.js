@@ -19,8 +19,8 @@ function RenderKidVideo({video}) {
 function RenderParentVideo({video, updateApproval}) {
   return (
     <Media tag="li" className="video-listing">
-      <Media left middle>
-        <Media object src={`assets/images/${video.thumbnail}`}  href={video.url} alt={video.name} />
+      <Media href={video.url} left middle>
+        <Media object src={`assets/images/${video.thumbnail}`} alt={video.name} />
       </Media>
 
       <Media body className="ml-5">
