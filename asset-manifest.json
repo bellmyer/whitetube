@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/whitetube/static/css/main.434ab2c6.chunk.css",
-    "main.js": "/whitetube/static/js/main.8ee6b098.chunk.js",
-    "main.js.map": "/whitetube/static/js/main.8ee6b098.chunk.js.map",
+    "main.js": "/whitetube/static/js/main.d450eabd.chunk.js",
+    "main.js.map": "/whitetube/static/js/main.d450eabd.chunk.js.map",
     "runtime~main.js": "/whitetube/static/js/runtime~main.a7323a84.js",
     "runtime~main.js.map": "/whitetube/static/js/runtime~main.a7323a84.js.map",
     "static/css/2.340f4271.chunk.css": "/whitetube/static/css/2.340f4271.chunk.css",
     "static/js/2.453d3eb5.chunk.js": "/whitetube/static/js/2.453d3eb5.chunk.js",
     "static/js/2.453d3eb5.chunk.js.map": "/whitetube/static/js/2.453d3eb5.chunk.js.map",
     "index.html": "/whitetube/index.html",
-    "precache-manifest.f2287f599306d3949f67916151b837dd.js": "/whitetube/precache-manifest.f2287f599306d3949f67916151b837dd.js",
+    "precache-manifest.55572e6bab47194a25d1b5f51b18ff43.js": "/whitetube/precache-manifest.55572e6bab47194a25d1b5f51b18ff43.js",
     "service-worker.js": "/whitetube/service-worker.js",
     "static/css/2.340f4271.chunk.css.map": "/whitetube/static/css/2.340f4271.chunk.css.map",
     "static/css/main.434ab2c6.chunk.css.map": "/whitetube/static/css/main.434ab2c6.chunk.css.map",
