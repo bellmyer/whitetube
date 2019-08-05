@@ -1,11 +1,12 @@
 {
   "name": "whitetube",
   "version": "0.1.0",
-  "homepage": "https://bellmyer.github.io/whitetube/build/",
+  "homepage": "https://bellmyer.github.io/whitetube",
   "private": true,
   "dependencies": {
     "bootstrap": "4.0.0",
     "font-awesome": "4.7.0",
+    "gh-pages": "^2.1.0",
     "prop-types": "15.6.0",
     "react": "^16.8.6",
     "react-animation-components": "3.0.0",
