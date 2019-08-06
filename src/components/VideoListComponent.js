@@ -82,7 +82,9 @@ function VideoList(props) {
       { props.view == 'kids' &&
         <div className="col-12">
           <div className='password-hint'>
-            This is a demo site. The password for login is: <strong>password</strong>
+            This is a demo site. The password for login is:
+            <br />
+            <strong>password</strong>
           </div>
         </div>
       }
