@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/whitetube/static/css/main.55938002.chunk.css",
-    "main.js": "/whitetube/static/js/main.3146ea9d.chunk.js",
-    "main.js.map": "/whitetube/static/js/main.3146ea9d.chunk.js.map",
+    "main.css": "/whitetube/static/css/main.e8ce4836.chunk.css",
+    "main.js": "/whitetube/static/js/main.2f79e8c7.chunk.js",
+    "main.js.map": "/whitetube/static/js/main.2f79e8c7.chunk.js.map",
     "runtime~main.js": "/whitetube/static/js/runtime~main.a7323a84.js",
     "runtime~main.js.map": "/whitetube/static/js/runtime~main.a7323a84.js.map",
     "static/css/2.340f4271.chunk.css": "/whitetube/static/css/2.340f4271.chunk.css",
     "static/js/2.453d3eb5.chunk.js": "/whitetube/static/js/2.453d3eb5.chunk.js",
     "static/js/2.453d3eb5.chunk.js.map": "/whitetube/static/js/2.453d3eb5.chunk.js.map",
     "index.html": "/whitetube/index.html",
-    "precache-manifest.2db6720f100b6e750901747261e63521.js": "/whitetube/precache-manifest.2db6720f100b6e750901747261e63521.js",
+    "precache-manifest.02914c616e989751e6d90def784a25e5.js": "/whitetube/precache-manifest.02914c616e989751e6d90def784a25e5.js",
     "service-worker.js": "/whitetube/service-worker.js",
     "static/css/2.340f4271.chunk.css.map": "/whitetube/static/css/2.340f4271.chunk.css.map",
-    "static/css/main.55938002.chunk.css.map": "/whitetube/static/css/main.55938002.chunk.css.map",
+    "static/css/main.e8ce4836.chunk.css.map": "/whitetube/static/css/main.e8ce4836.chunk.css.map",
     "static/media/font-awesome.css": "/whitetube/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }

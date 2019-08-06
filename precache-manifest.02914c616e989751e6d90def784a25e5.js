@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77b942064d6d5df8308612192d922cb1",
+    "revision": "9171f9e58dfc953341acca11be77dbd8",
     "url": "/whitetube/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whitetube/static/css/2.340f4271.chunk.css"
   },
   {
-    "revision": "d1d0e8bd11a970cc576b",
-    "url": "/whitetube/static/css/main.55938002.chunk.css"
+    "revision": "86ce9f2117f28ed3e8d7",
+    "url": "/whitetube/static/css/main.e8ce4836.chunk.css"
   },
   {
     "revision": "2a28b76c87d49d3cb08e",
     "url": "/whitetube/static/js/2.453d3eb5.chunk.js"
   },
   {
-    "revision": "d1d0e8bd11a970cc576b",
-    "url": "/whitetube/static/js/main.3146ea9d.chunk.js"
+    "revision": "86ce9f2117f28ed3e8d7",
+    "url": "/whitetube/static/js/main.2f79e8c7.chunk.js"
   },
   {
     "revision": "445226104a0fb99e6838",
