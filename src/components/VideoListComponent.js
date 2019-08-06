@@ -78,6 +78,11 @@ function VideoList(props) {
           {videos}
         </Media>
       </div>
+      <div className="col-12">
+        <div className='password-hint'>
+          This is a demo site. The password for login is "password", without the quotes.
+        </div>
+      </div>
     </div>
   )
 }

@@ -14,3 +14,12 @@
 .video-listing p {
   text-align: left;
 }
+
+.password-hint {
+  width: 50%;
+  justify: auto;
+  text-align: center;
+  border: 2px dashed red;
+  border-radius: 4px;
+  font-size: 20px;
+}
