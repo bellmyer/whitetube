@@ -79,13 +79,16 @@ function VideoList(props) {
         </Media>
       </div>
 
-      { props.view == 'kids' &&
+      { props.view === 'kids' &&
         <div className="col-12">
           <div className='password-hint'>
             This is a demo site. The password for login is:
             <br />
             <strong>password</strong>
           </div>
+
+          <p><strong>Video Walkthrough:</strong></p>
+          <video src="https://dti6i5hz1tz1z.cloudfront.net/items/3Z2M050k1T3a0p1b1k1h/Screen%20Recording%202019-08-13%20at%2010.37%20AM.mov" controls style={{display: 'block', height: 'auto', width: '100%'}}>Video Walkthrough</video>
         </div>
       }
     </div>
