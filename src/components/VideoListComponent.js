@@ -88,7 +88,7 @@ function VideoList(props) {
           </div>
 
           <p><strong>Video Walkthrough:</strong></p>
-          <video src="https://dti6i5hz1tz1z.cloudfront.net/items/3Z2M050k1T3a0p1b1k1h/Screen%20Recording%202019-08-13%20at%2010.37%20AM.mov" controls style={{display: 'block', height: 'auto', width: '100%'}}>Video Walkthrough</video>
+          <video src="https://dti6i5hz1tz1z.cloudfront.net/items/3Z2M050k1T3a0p1b1k1h/Screen%20Recording%202019-08-13%20at%2010.37%20AM.mov" controls style={{display: 'block', height: 'auto', width: '90%', border: '2px solid #333'}}>Video Walkthrough</video>
         </div>
       }
     </div>
